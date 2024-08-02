@@ -1,0 +1,25 @@
+.todo-table {
+  width: 100%;
+  thead {
+    color: white;
+    background-color: royalblue;
+  }
+  td,
+  th {
+    padding: 0.5rem 1rem;
+  }
+  tbody {
+    > tr {
+      &:nth-child(even) {
+        background-color: #eee;
+      }
+      &:hover {
+        background-color: lightblue;
+      }
+      &.selected {
+        color: white;
+        background-color: tomato;
+      }
+    }
+  }
+}
