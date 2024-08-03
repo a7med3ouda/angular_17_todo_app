@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input[type="text"],
+input[type="password"] {
+  height: 32px;
+  padding-inline: 0.5rem;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+button {
+  height: 32px;
+  padding-inline: 1rem;
+}

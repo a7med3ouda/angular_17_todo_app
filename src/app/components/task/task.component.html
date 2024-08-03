@@ -1,0 +1,9 @@
+<td>{{ task.id }}</td>
+<td>{{ task.title }}</td>
+<td>
+  <input type="checkbox" [id]="task.id" [checked]="task.completed" (click)="handleToggleTaskComplete(task.id)" />
+</td>
+<td>
+  <button (click)="handleEditTask(task)">Edit</button>
+  <button (click)="handleDeleteTask(task.id)">Delete</button>
+</td>
